@@ -31,6 +31,7 @@ void addKeyboard(string keyboards[], int &jumlahKeyboard)
     cin >> namaKeyboard;
     keyboards[jumlahKeyboard] = namaKeyboard;
     jumlahKeyboard++;
+    cout << "Keyboard berhasil ditambahkan" << endl;
 }
 
 void editKeyboard(string keyboards[], int jumlahKeyboard)
